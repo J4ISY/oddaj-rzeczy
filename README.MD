@@ -11,3 +11,13 @@
 - Jest wiele dostępnych rozwiązań, ale wiele z nich wymaga dodatkowego wysiłku lub nie ma do nich zaufania. W
   zweryfikowane miejsca trzeba pojechać, a nie ma na to czasu/ nie ma jak tam pojechać, a kontenery pod domem lub
   lokalne zbiórki są niezweryfikowane i nie wiadomo czy te rzeczy faktycznie trafią do potrzebujących.
+
+
+```
+Config:
+- npm install
+- npm install react-scroll
+- npm install react-router-dom
+- npm install node-sass
+- npm install sass
+```

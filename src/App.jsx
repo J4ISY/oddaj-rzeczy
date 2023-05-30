@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-        <h1>dupa</h1>
+        <h1>App jsx test</h1>
     </>
   )
 }
