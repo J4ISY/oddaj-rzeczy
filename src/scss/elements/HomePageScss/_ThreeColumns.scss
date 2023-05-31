@@ -1,0 +1,40 @@
+.tc {
+  width: 100%;
+  height: 384px;
+  background-image: url("/src/assets/images/tc-baner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tc-single {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tc-number {
+  font-size: 90px;
+  font-weight: 300;
+  color: #5E5322;
+  margin: 0;
+}
+.tc-title {
+  color: $text-color;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+.tc-text {
+  color: $text-color;
+  font-family: $font-alt;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 28px;
+  text-align: center;
+  width: 70%;
+}
