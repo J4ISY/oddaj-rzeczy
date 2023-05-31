@@ -1,6 +1,8 @@
 @import "generic/normalize";
 @import "settings/fonts";
 @import "settings/colors";
+// Import Styling to components
+@import "elements/HomePageScss/HeroSection";
 
 body {
   font-family: $font-base;
