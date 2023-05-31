@@ -2,8 +2,9 @@
 @import "settings/fonts";
 @import "settings/colors";
 // Import Styling to components
-@import "elements/HomePageScss/HeroSection";
-@import "elements/HomePageScss/ThreeColumns";
+@import "elements/header/header";
+@import "elements/home-page-scss/HeroSection";
+@import "elements/home-page-scss/ThreeColumns";
 
 body {
   font-family: $font-base;
