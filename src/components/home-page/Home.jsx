@@ -1,5 +1,5 @@
-import Hero from "./HomeComponents/Hero.jsx";
-import ThreeColumns from "./HomeComponents/ThreeColumns.jsx";
+import Hero from "./home-components/Hero.jsx";
+import ThreeColumns from "./home-components/ThreeColumns.jsx";
 
 function Home() {
     return (

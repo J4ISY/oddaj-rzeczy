@@ -1,0 +1,43 @@
+.logReg-wrap {
+  box-sizing: border-box;
+  //border: 3px solid darkred;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 110px;
+  margin-top: 35px;
+  margin-bottom: 17px;
+}
+.logReg-btn {
+  font-size: 14px;
+  padding: 9px 6px;
+  text-decoration: none;
+  color: $hero-nav-log-color;
+}
+.logReg-btn.btn-sc {
+  font-size: 13px;
+}
+.active-hero {
+  box-sizing: border-box;
+  border: .75px solid #FAD648;
+}
+.hero_nav {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 99px;
+}
+.nav-links {
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-right: 20px;
+  color: $text-color;
+}
+.nav-links:last-child {
+  margin-right: 0;
+}
+.active-nav-hero {
+  border: .75px solid $text-color;
+}
