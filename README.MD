@@ -14,6 +14,17 @@
   zweryfikowane miejsca trzeba pojechać, a nie ma na to czasu/ nie ma jak tam pojechać, a kontenery pod domem lub
   lokalne zbiórki są niezweryfikowane i nie wiadomo czy te rzeczy faktycznie trafią do potrzebujących.
 
+
+```
+Config:
+- npm install
+- npm install react-scroll
+- npm install react-router-dom
+- npm install node-sass
+- npm install sass
+```
+
+
 ### *ENG*
 
 # give-to-others-app
@@ -29,7 +40,8 @@
 - There are many solutions available, but many require extra effort or are not trusted. In verified places need to be traveled 
    and there is no time for it / there is no way to go there, and containers under the house or local collections 
    are unverified and it is not known whether these items will actually go to those in need.
-   
+
+
 ```
 Config:
 - npm install
