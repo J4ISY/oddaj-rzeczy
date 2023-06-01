@@ -1,0 +1,90 @@
+.ss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+// TOP TOP TOP
+.ss-top {
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ss-top-h2 {
+  margin-bottom: 31px;
+  margin-top: 0;
+  color: $text-color;
+  font-size: 38px;
+  font-weight: 400;
+}
+.ss-top-img {}
+
+// MID MID MID
+
+.ss-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 41px;
+  background-color: #F0F1F1;
+}
+.ss-mid-single {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 73px;
+  margin-bottom: 73px;
+}
+.ss-mid-img {
+  width: 83px;
+  height: 83px;
+}
+.ss-mid-h4 {
+  font-size: 18px;
+  color: $text-color;
+  margin-bottom: 15px;
+  width: 40%;
+  text-align: center;
+}
+.ss-mid-line {
+  width: 70px;
+  height: .75px;
+  background-color: $text-color;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ss-mid-text {
+  margin-top: 15px;
+  font-size: 16px;
+  color: $text-color;
+  width: 44%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+// BOTTOM BOTTOM BOTTOM
+
+.ss-bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 80px;
+}
+.ss-bot-btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $text-color;
+  font-size: 36px;
+  padding: 13px 70px;
+  border: .75px solid $text-color;
+  width: 50%;
+  text-align: center;
+}
