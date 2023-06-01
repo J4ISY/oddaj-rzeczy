@@ -5,7 +5,9 @@
 @import "elements/header/header";
 @import "elements/home-page-scss/HeroSection";
 @import "elements/home-page-scss/ThreeColumns";
+@import "elements/home-page-scss/SingleSteps";
 
 body {
   font-family: $font-base;
+  font-weight: 400;
 }
