@@ -1,0 +1,118 @@
+.wwh {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.wwh-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wwh-top-h3 {
+  font-size: 38px;
+  font-weight: 400;
+  color: $text-color;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+.wwh-top-img {}
+
+.wwh-top-btns {
+  margin-top: 60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  margin-bottom: 69px;
+}
+.wwh-top-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 11px 50px;
+  text-decoration: none;
+  color: $text-color;
+  width: 20%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.wwh-top-btn:first-child {
+  padding: 25px 30px;
+}
+.wwh-selected {
+  border: .75px solid $text-color;
+}
+.wwh-top-btn:hover {
+  border: .75px solid $text-color;
+}
+
+.wwh-top-text {
+  font-size: 22px;
+  color: $text-color;
+  width: 40%;
+  text-align: center;
+}
+
+.wwh-bot {
+  margin-top: 66px;
+  width: 70%;
+}
+.wwh-bot-content {
+  position: relative;
+  border-bottom: .75px solid $text-color;
+  padding-bottom: 10px;
+}
+.wwh-bot-content:last-child {
+  border: none;
+}
+
+.wwh-bot-h4 {
+  font-size: 26px;
+  font-family: $font-alt;
+  font-weight: 300;
+  color: $text-color;
+  margin-bottom: 6px;
+}
+.wwh-bot-abs {
+  font-size: 18px;
+  font-family: $font-alt;
+  font-weight: 300;
+  color: $text-color;
+  position: absolute;
+  right: 37px;
+  top: 0;
+}
+.wwh-bot-text {
+  margin-top: 0;
+  font-size: 18px;
+  font-family: $font-alt;
+  font-weight: 300;
+  color: $text-color;
+  font-style: italic;
+}
+
+.wwh-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.wwh-btn-single {
+  margin-right: 20px;
+  color: $text-color;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 13px 15px;
+}
+.wwh-btn-single-selected {
+  border: .75px solid $line-color;
+}
+.wwh-btn-single:last-child {
+  margin: 0;
+}
