@@ -4,7 +4,7 @@ function Header() {
     return (
         <>
             <div className="logReg-wrap">
-                <Link to='/' className="logReg-btn">Zaloguj</Link>
+                <Link to='/zaloguj-sie' className="logReg-btn">Zaloguj</Link>
                 <Link to='/' className="logReg-btn btn-sc active-hero">Załóż konto</Link>
             </div>
             <nav className="hero_nav">
