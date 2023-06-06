@@ -13,8 +13,8 @@ function Hero() {
                             <h1 className="hero-text second">Oddaj niechciane rzeczy w zaufane ręce</h1>
                             <img src="src/assets/images/hero-decoration.png" alt="" className="hero-img"/>
                             <div className="hero-btn">
-                                <Link to='/' className="hero-links">Oddaj rzeczy</Link>
-                                <Link to='/' className="hero-links">Zorganizuj zbiórkę</Link>
+                                <Link to='/logowanie' className="hero-links">Oddaj rzeczy</Link>
+                                <Link to='/logowanie' className="hero-links">Zorganizuj zbiórkę</Link>
                             </div>
                         </div>
                     </div>
