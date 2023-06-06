@@ -35,7 +35,7 @@ function SingleSteps() {
                     </div>
                 </div>
                 <div className="ss-bot">
-                    <Link to='/' className="ss-bot-btn">Oddaj rzeczy</Link>
+                    <Link to='/logowanie' className="ss-bot-btn">Oddaj rzeczy</Link>
                 </div>
             </div>
         </>
