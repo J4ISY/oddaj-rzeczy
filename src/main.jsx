@@ -2,8 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 // Importing components
+// Error Page
 import Error from "./components/error/Error.jsx";
+// Landing Page
 import Home from "./components/home-page/Home.jsx";
+// Log-in Page
+import LogIn from "./components/home-page/logIn-register/LogIn.jsx";
 
 const router = createBrowserRouter([
     {
@@ -13,6 +17,10 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Home />
+    },
+    {
+        path: 'zaloguj-sie',
+        element: <LogIn />
     }
 ])
 

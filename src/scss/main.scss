@@ -2,6 +2,7 @@
 @import "settings/fonts";
 @import "settings/colors";
 // Import Styling to components
+// Landing Page
 @import "elements/header/header";
 @import "elements/home-page-scss/HeroSection";
 @import "elements/home-page-scss/ThreeColumns";
@@ -9,6 +10,8 @@
 @import "elements/home-page-scss/AboutUs";
 @import "elements/home-page-scss/WhoWeHelp";
 @import "elements/home-page-scss/Footer";
+// Log-in
+@import "elements/log-in/LogIn";
 
 body {
   font-family: $font-base;
