@@ -21,17 +21,27 @@
   margin-bottom: 26px;
   margin-top: 0;
 }
-.log-in-img {}
+.log-in-img {
+  width: 253px;
+  height: 33px;
+}
 
 .log-in-form {
+  position: relative;
+  width: 385px;
+  height: 235px;
   margin-top: 61px;
   margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-self: center;
   flex-direction: column;
+}
+
+.li-form {
   background-color: #F0F1F1;
 }
+
 .li-form-wrap {
   display: flex;
   justify-content: center;
@@ -65,7 +75,10 @@
 }
 
 .log-in-bottom-btns {
-  width: 28%;
+  position: absolute;
+  width: 510px;
+  bottom: -87px;
+  left: -63px;
   display: flex;
   justify-content: space-between;
 }
@@ -75,6 +88,7 @@
   color: black;
   text-decoration: none;
   padding: 16px 13px;
+  background-color: transparent;
 }
 .log-in-btn-border {
   border: .75px solid $text-color;
