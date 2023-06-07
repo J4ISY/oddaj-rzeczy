@@ -65,9 +65,9 @@ function LogIn() {
                             <div className="li-form-wrap">
                                 <label htmlFor="email-log-in" className='li-form-label'>Email</label>
                                 <input type="email" onChange={handleMail} name='email-log-in' id='email-log-in'
-                                       className={`li-form-input ${messageMail === 'Hasło poprawne' ? 'inpAccept' : 'inpError'}`}
+                                       className={`li-form-input ${messageMail === 'Adres e-mail poprawny' ? 'inpAccept' : 'inpError'}`}
                                 />
-                                <p className={messagePwd === 'Hasło poprawne' ? 'pwdAccept' : 'pwdError'}>{messageMail}</p>
+                                <p className={messageMail === 'Adres e-mail poprawny' ? 'pwdAccept' : 'pwdError'}>{messageMail}</p>
                             </div>
                             <div className="li-form-wrap">
                                 <label htmlFor="passwd-log-in" className='li-form-label'>Hasło</label>
