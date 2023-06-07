@@ -93,3 +93,23 @@
 .log-in-btn-border {
   border: .75px solid $text-color;
 }
+
+// Password validation
+
+.pwdError {
+  color: darkred;
+  font-weight: 400;
+}
+
+.pwdAccept {
+  color: darkgreen;
+  font-weight: 400;
+}
+
+.inpAccept {
+  border-bottom: .75px solid $text-color;
+}
+
+.inpError {
+  border-bottom: .75px solid darkred;
+}
