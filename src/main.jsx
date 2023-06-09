@@ -9,28 +9,35 @@ import Home from "./components/home-page/Home.jsx";
 // Log-in Page
 import LogIn from "./components/home-page/logIn-register/LogIn.jsx";
 import Register from "./components/home-page/logIn-register/Register.jsx";
+// Logout Page
+import Logout from "./components/home-page/logout/Logout.jsx";
 
 const router = createBrowserRouter([
     {
         path: '*',
-        element: <Error />
+        element: <Error/>
     },
     {
         path: '/',
-        element: <Home />
+        element: <Home/>
     },
     {
         path: '/logowanie',
-        element: <LogIn />
+        element: <LogIn/>
     },
     {
         path: '/rejestracja',
-        element: <Register />
+        element: <Register/>
+    },
+    {
+        path: '/wylogowano',
+        element: <Logout/>
     }
+
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <RouterProvider router={router}/>
-  </React.StrictMode>,
+    <React.StrictMode>
+        <RouterProvider router={router}/>
+    </React.StrictMode>,
 )
