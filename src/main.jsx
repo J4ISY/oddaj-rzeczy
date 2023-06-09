@@ -8,6 +8,7 @@ import Error from "./components/error/Error.jsx";
 import Home from "./components/home-page/Home.jsx";
 // Log-in Page
 import LogIn from "./components/home-page/logIn-register/LogIn.jsx";
+import Register from "./components/home-page/logIn-register/Register.jsx";
 
 const router = createBrowserRouter([
     {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
     {
         path: '/logowanie',
         element: <LogIn />
+    },
+    {
+        path: '/rejestracja',
+        element: <Register />
     }
 ])
 
