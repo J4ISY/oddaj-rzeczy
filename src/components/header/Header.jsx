@@ -5,7 +5,7 @@ function Header() {
         <>
             <div className="logReg-wrap">
                 <Link to='/logowanie' className="logReg-btn">Zaloguj</Link>
-                <Link to='/' className="logReg-btn btn-sc active-hero">Załóż konto</Link>
+                <Link to='/rejestracja' className="logReg-btn btn-sc active-hero">Załóż konto</Link>
             </div>
             <nav className="hero_nav">
                 <Link to='/' className="nav-links active-nav-hero">Start</Link>

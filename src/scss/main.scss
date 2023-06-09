@@ -11,7 +11,9 @@
 @import "elements/home-page-scss/WhoWeHelp";
 @import "elements/home-page-scss/Footer";
 // Log-in
-@import "elements/log-in/LogIn";
+@import "elements/logIn-register/LogIn";
+// Register
+@import "elements/logIn-register/Register";
 
 body {
   font-family: $font-base;
